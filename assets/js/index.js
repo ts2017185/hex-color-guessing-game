@@ -1,3 +1,5 @@
+/* jshint esversion: 6 */
+
 // Start game button click event
 document.getElementById('start-game-button').addEventListener('click', () => {
     // Find the selected level button
