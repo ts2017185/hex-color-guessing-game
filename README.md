@@ -209,7 +209,7 @@ __Continuous Deployment__
 ### Content
 
 - Fonts were imported from [Google Fonts](https://fonts.google.com/).
-- Color palette idead came from [Coolors]([http://colormind.io/](https://coolors.co/)).
+- Color palette idead came from [Coolors](https://coolors.com).
 - Game idea came from Andrew Yang and his project [What the Hex?](https://yizzle.com/whatthehex/?n=7).
 - I used some YouTube videos and tutorials as a foundation and resource for this project. Notable contributors include [FreeCodeCamp.org](https://www.youtube.com/@freecodecamp), and [Coding Artist](https://www.youtube.com/@CodingArtist).
 
