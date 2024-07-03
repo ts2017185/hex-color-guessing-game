@@ -80,7 +80,7 @@ The site was also tested using [Google Lighthouse](https://developers.google.com
 * Best Practices - Site conforms to industry best practices.
 * SEO - Search engine optimisation. Is the site optimised for search engine result rankings.
 
-Here are the results from the Animal Pairs test. 
+Here are the results from the test. 
 ![Lighthouse test results](assets/images/sketch/lighthouse.JPG)
 
 Back to [README.md](./README.md#testing).
