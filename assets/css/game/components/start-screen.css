@@ -18,14 +18,14 @@
 #start-button,
 #restart {
     position: absolute;
-    font-size: 1.2em;
+    font-size: 1.8em;
     padding: 1em 3em;
     border-radius: 2em;
     box-shadow: 0 1em 3em rgba(37, 22, 80, 0.3);
 }
 
 /* Hover styling for the 'Start' button */
-#start:hover {
+#start-button:hover {
     background-color: #B8515D;
 }
 
