@@ -37,6 +37,7 @@ Enjoy the game and happy guessing!
 
 ### User Stories
 
+- As a user, I want to know how to play the game.
 - As a user, I want to see my score at the end of the game.
 - As a user, I want to know how much time I have left to guess a color.
 - As a user, I want to know when I have completed the game.
