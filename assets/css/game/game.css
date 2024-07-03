@@ -1,0 +1,19 @@
+/* Importing CSS files */
+
+/* Importing global styles */
+@import url(components/global.css);
+
+/* Importing styles for the display container */
+@import url(components/display-container.css);
+
+/* Importing styles for the start screen */
+@import url(components/start-screen.css);
+
+/* Importing styles for the questions */
+@import url(components/question.css);
+
+/* Importing styles for the header */
+@import url(components/header.css);
+
+/* Importing styles for the next button */
+@import url(components/next-button.css);

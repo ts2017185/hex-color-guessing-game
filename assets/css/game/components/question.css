@@ -1,0 +1,71 @@
+/* question.css */
+
+/* Styling for question text */
+.question-color {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* Styling for the container with a bottom margin */
+#container {
+    margin-bottom: 1em;
+}
+
+/* Styling for button container using CSS grid */
+.button-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    place-items: center;
+}
+
+/* Styling for option divs */
+.option-div {
+    width: 100%;
+    height: 10em;
+    padding: 1em;
+    margin: 0.3em 0;
+    text-align: left;
+    border-radius: 0.5em;
+}
+
+/* Styling for disabled option divs */
+.option-div:disabled {
+    cursor: not-allowed;
+}
+
+/* Background image for correct option */
+.correct {
+    background: url("../../../svg/correct.svg");
+}
+
+/* Background image for incorrect option */
+.incorrect {
+    background: url("../../../svg/incorrect.svg");
+}
+
+/* Common styling for correct and incorrect options */
+.correct,
+.incorrect {
+    background-repeat: no-repeat;
+    background-size: 3em;
+    background-position: center;
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    .option-div {
+        height: 9em;
+    }
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media (max-width: 480px) {
+    .question-color {
+        font-size: 1.2em;
+    }
+
+    .option-div {
+        height: 8em;
+    }
+}

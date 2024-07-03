@@ -1,0 +1,35 @@
+/* next-button.css */
+
+/* Styling for the 'Next' button */
+#next-button {
+    font-size: 1.1em;
+    background-color: #CA7D86;
+    color: #ffffff;
+    padding: 0.4em 2em;
+    border-radius: 0.3em;
+}
+
+/* Hover styling for the 'Next' button */
+#next-button:hover {
+    background-color: #B8515D;
+}
+
+.hide {
+    display: none;
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    #next-button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media (max-width: 480px) {
+    #next-button {
+        font-size: 1em;
+        padding: 0.5em 1em;
+    }
+}

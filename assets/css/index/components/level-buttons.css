@@ -1,0 +1,27 @@
+/* Styling for level selection buttons */
+.level-button {
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    background-color: #D69AA1;
+    color: white;
+    cursor: pointer;
+}
+
+/* Container for level buttons */
+.level-buttons {
+    display: flex;
+    gap: -1em;
+    margin: 1em 0;
+}
+
+/* Styling for selected level button */
+.level-button.selected {
+    background-color: #B8515D;
+}
+
+/* Hover styling for the level buttons */
+.level-button:hover {
+    background-color: #B8515D;
+}

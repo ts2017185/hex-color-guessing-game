@@ -1,0 +1,54 @@
+/* start-screen.css */
+
+/* Styling for start screen and score container */
+.start-screen,
+.score-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D69AA1;
+}
+
+/* Styling for start and restart buttons */
+#start-button,
+#restart {
+    position: absolute;
+    font-size: 1.2em;
+    padding: 1em 3em;
+    border-radius: 2em;
+    box-shadow: 0 1em 3em rgba(37, 22, 80, 0.3);
+}
+
+/* Additional margin for restart button */
+#restart {
+    margin-top: 6em;
+}
+
+/* Hover styling for the 'Restart' button */
+#restart:hover {
+    background-color: #B8515D;
+}
+
+/* Styling for return home button */
+#return-home {
+    position: absolute;
+    font-size: 1.2em;
+    padding: 1em 3em;
+    border-radius: 2em;
+    box-shadow: 0 1em 3em rgba(37, 22, 80, 0.3);
+}
+
+/* Additional margin for return home button */
+#return-home {
+    margin-top: 15em;
+}
+
+/* Hover styling for the 'Return Home' button */
+#return-home:hover {
+    background-color: #B8515D;
+}

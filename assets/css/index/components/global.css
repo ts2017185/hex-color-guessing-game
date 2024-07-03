@@ -1,0 +1,57 @@
+/* global.css for the index page */
+
+/* Resetting default margins and paddings, setting box-sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Setting background color for the body */
+body {
+    background-color: #D69AA1;
+}
+
+/* Base styling for all buttons */
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    .intro-container {
+        width: 95%;
+        padding: 1.5em;
+    }
+
+    .level-button {
+        padding: 0.5em 0.8em;
+        font-size: 1em;
+    }
+
+    #start-game-button {
+        padding: 0.8em 2em;
+        font-size: 1em;
+    }
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media (max-width: 480px) {
+    .intro-container {
+        width: 90%;
+        padding: 1em;
+    }
+
+    .level-button {
+        padding: 0.3em 0.5em;
+        font-size: 0.9em;
+    }
+
+    #start-game-button {
+        padding: 0.6em 1.5em;
+        font-size: 0.9em;
+    }
+}

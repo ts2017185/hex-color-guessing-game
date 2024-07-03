@@ -1,0 +1,21 @@
+/* header.css */
+
+/* Styling for the header section */
+.header {
+    padding: 0.5em;
+    /* Adding a bottom border with a light color */
+    border-bottom: 1px solid #CA7D86;
+}
+
+/* Styling for title within header and span within timer */
+.header .title,
+.timer span {
+    font-weight: 600;
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media (max-width: 480px) {
+    .header .title p {
+        font-size: 1.2em;
+    }
+}

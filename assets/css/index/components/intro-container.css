@@ -1,0 +1,20 @@
+/* Base styling for the intro container */
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 90%;
+    max-width: 37em;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    text-align: center;
+    padding: 2em;
+    border-radius: 0.8em;
+    box-shadow: 0 1em 3em rgba(37, 22, 80, 0.3);
+    box-sizing: border-box;
+}

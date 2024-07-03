@@ -1,0 +1,81 @@
+/* global.css for the game page */
+
+/* Resetting default margins and paddings, setting box-sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Using Poppins font for all elements */
+    font-family: "Poppins", sans-serif;
+}
+
+/* Setting background color for the body */
+body {
+    background-color: #D69AA1;
+}
+
+/* Styling for buttons: removing borders and outlines, setting cursor to pointer */
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Flexbox container with space between items and center alignment */
+.flex-space {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Simple flexbox container */
+.flex {
+    display: flex;
+}
+
+/* Class to hide elements */
+.hide {
+    display: none;
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9em;
+    }
+
+    .flex-space {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #display-container {
+        padding: 2em 1em;
+        width: 95%;
+    }
+
+    #next-button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media (max-width: 480px) {
+    body {
+        font-size: 0.8em;
+    }
+
+    .header .title p {
+        font-size: 1.2em;
+    }
+
+    #next-button {
+        font-size: 1em;
+        padding: 0.5em 1em;
+    }
+
+    .number-of-count span {
+        font-size: 1.2em;
+    }
+}

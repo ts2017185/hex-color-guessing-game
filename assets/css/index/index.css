@@ -1,0 +1,13 @@
+/* Importing CSS files */
+
+/* Importing global styles */
+@import url(components/global.css);
+
+/* Importing styles for the intro container */
+@import url(components/intro-container.css);
+
+/* Importing styles for the level buttons */
+@import url(components/level-buttons.css);
+
+/* Importing styles for the start game button */
+@import url(components/start-game-button.css);

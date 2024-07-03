@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#Hex Color Guessing Game Play</title>
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/faviconlogo.jpg" type="images/favicon.jpg">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="assets/css/game/game.css">
+    <!-- Meta Description -->
+    <meta name="Hex Color Guessing Game Play"
+        content="Play the first version of 'Hex Color Guessing Game' with dynamic animations and interactive elements.">
+</head>
+
+<body>
+    <!-- Header section with title and timer -->
+    <main id="display-container">
+        <div class="header flex-space">
+            <div class="title">
+                <p><strong>#</strong>Hex Color Guessing Game</p>
+            </div>
+            <!-- Timer display -->
+            <div class="timer"></div>
+        </div>
+
+        <!-- Container where random hex colors and options will be displayed -->
+        <div id="container"></div>
+
+        <!-- Section for displaying the number of questions and the next button -->
+        <div class="flex-space">
+            <!-- Display for the number of questions -->
+            <div class="number-of-count">
+                <span class="number-of-questions"></span>
+            </div>
+            <!-- Button to proceed to the next question -->
+            <div id="next-button">Next</div>
+        </div>
+    </main>
+
+    <!-- Start screen with a start button -->
+    <div class="start-screen">
+        <button id="start-button">Start</button>
+    </div>
+
+    <!-- Score container that is hidden initially -->
+    <div class="score-container hide">
+        <!-- User's score display -->
+        <div id="user-score"></div>
+        <!-- Button to restart the game -->
+        <button id="restart">Restart</button>
+        <!-- Button to return to the home screen -->
+        <button id="return-home">Return Home</button>
+    </div>
+
+    <!-- Script to run the game logic -->
+    <script src="assets/js/game.js"></script>
+</body>
+
+</html>
