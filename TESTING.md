@@ -14,7 +14,7 @@ The CSS validator results are below:
 
 ![CSS Validator test result](assets/images/sketch/css.JPG)
 
-The JSHint validator results showed that there were a number of minor errors such as the 'esversion' option cannot be set after any executable code. 
+The JSHint validator results showed that there were a number of minor errors such as "the 'esversion' option cannot be set after any executable code". 
 These errors were corrected and subsequent passes through JSHint revealed no major flaws.
 
 ![ JSHint validator](assets/images/sketch/js1.JPG)
@@ -37,15 +37,15 @@ Google Chrome, Microsoft Edge, and Mozilla Firefox. Appearance, functionality an
 ## Testing User Stories
 
 * As a user, I want to know how to play the game.
-    * On the **Home Page** there is a description of the game and how to play. Also, the game is user-friendly and intuitive.
+    * On the **Home Page** there is a description of the game and how to play. The game is user-friendly and intuitive.
     
     <br>
 * As a user, I want to see my score at the end of the game.
-    * Once the game is completed the **End Game** pop-up displays the result.
+    * Once the game is completed, the **End Game** pop-up displays a message with the result.
     
     <br>
 * As a user, I want to know how much time I have left to guess a color.
-    * There is a **Timer** visible.
+    * There is a **Timer** visible during the game.
     
     <br>
 * As a user, I want to know when I have completed the game.
@@ -53,12 +53,14 @@ Google Chrome, Microsoft Edge, and Mozilla Firefox. Appearance, functionality an
     
     <br>
 * As a user, I want to reset the game for another attempt.
-    * Once the game is completed, you can click on **Restart**, and initiate a new game.
+    * Once the game is completed, you can click on **Restart** to initiate a new game.
     
     <br>
 * As a user I want to choose the difficulty level to match my skills.
-    * The level of challenged in this game is determined by level selected on the Home Page. 
-    * Easy = 15s, Normal = 10s, Hard = 5s.
+    * The level of challenge in this game is determined by the level selected on the Home Page:
+      * Easy = 15s
+      * Normal = 10s
+      * Hard = 5s
 
 * As a user, I want to return to home screen and change the difficulty to match my skills.
     * This can be changed returning to the **Home Page**.  
@@ -68,7 +70,7 @@ Google Chrome, Microsoft Edge, and Mozilla Firefox. Appearance, functionality an
 * ### Resolved
   
     * The timer can take a little bit longer to appears.
-    * the svg images do not show up sometimes.
+    * The svg images do not show up sometimes.
 
 ## Additional Testing
 
