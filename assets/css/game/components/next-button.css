@@ -3,7 +3,8 @@
 /* Styling for the 'Next' button */
 #next-button {
     font-size: 1.1em;
-    background-color: #CA7D86;
+    background-color: #8B0000;
+    /* Darker background color for better contrast */
     color: #ffffff;
     padding: 0.4em 2em;
     border-radius: 0.3em;
@@ -11,7 +12,8 @@
 
 /* Hover styling for the 'Next' button */
 #next-button:hover {
-    background-color: #B8515D;
+    background-color: #B22222;
+    /* Slightly lighter red on hover for better visibility */
 }
 
 .hide {
