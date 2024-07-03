@@ -18,10 +18,10 @@ Enjoy the game and happy guessing!
         *  [Colour Scheme](<#color-scheme>)
 * [**Features**](<#features>)
     * [**Existing Features**](<#existing-features>)
-        * [Welcome pop-up](<#welcome-pop-up>)
+        * [Home Page](<#home-page>)
         * [Game Interface](<#game-interface>)
         * [Difficulty buttons](<#difficulty-buttons>)
-        * [Score and Timer](<#score-and-timer>)
+        * [Timer](<#timer>)
         * [Next Button](<#next-button>)
         * [End of Game Screen](<#end-of-game-screen>)
     * [**Future Features**](<#future-features>)
@@ -43,7 +43,7 @@ Enjoy the game and happy guessing!
 - As a user, I want to know when I have completed the game.
 - As a user, I want to reset the game for another attempt.
 - As a user, I want to choose the difficulty level to match my skills.
-- As a user, I want to return to home screen and change the difficulty to match my skills.
+- As a user, I want to return to home screen and change the difficulty if necessary.
 
 ### Wireframes
 
@@ -52,7 +52,7 @@ Enjoy the game and happy guessing!
 
 ### Site Structure
 
-The Hex Color Guessing Game is designed to be simple and intuitive. It consists of one main page with the game interface and pop-up windows for welcome messages and game results. The welcome pop-up explains the rules and allows users to start the game. The game interface displays the hex color to guess, the timer, and the score. The end-of-game screen shows the final score and gives options to restart the game or return to home page to change the dificulty.
+The Hex Color Guessing Game is designed to be simple and intuitive. It consists of one main page with the game interface. The Home page explains how to play, allows users to chose the dificulty, and start the game. The game interface displays the hex color to guess, the timer, and the score after the user finish the 5 rounds. The end-of-game screen shows the final score and gives options to restart the game or return to home page and change the dificulty.
 
 ### Design Choices
 
@@ -76,7 +76,7 @@ The Hex Color Guessing Game is designed to be simple and intuitive. It consists 
 
 ### Existing Features
 
-#### Welcome Pop-up
+#### Home Page
 
 - Provides an introduction to the game and explains the rules.
 - Features a "Start" button to begin the game.
@@ -92,7 +92,7 @@ The Hex Color Guessing Game is designed to be simple and intuitive. It consists 
 
 #### Difficulty buttons
 
-#### Score and Timer
+#### Timer
 
 - The score panel shows the number of correct guesses.
 - The timer tracks the time taken to make guesses and changes color after set intervals to indicate elapsed time.
