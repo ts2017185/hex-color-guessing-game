@@ -1,3 +1,5 @@
+/* jshint esversion: 6 */
+
 // Get references to various elements
 let timer = document.getElementsByClassName("timer")[0];
 let quizContainer = document.getElementById("container");
