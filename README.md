@@ -8,7 +8,7 @@ Enjoy the game and happy guessing!
 
 ![Responsive design image](assets/images/sketch/mockup.JPG)
 
-## Table of Contents
+## Contents
 * [**User Experience UX**](<#user-experience-ux>)
     * [User Stories](<#user-stories>)
     * [Wireframes](<#wireframes>)
@@ -24,8 +24,6 @@ Enjoy the game and happy guessing!
         * [Score and Timer](<#score-and-timer>)
         * [Next Button](<#next-button>)
         * [End of Game Screen](<#end-of-game-screen>)
-        * [The Game](<#the-game>)
-        * [Congratulations pop-up](<#congratulations-pop-up>)
     * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
@@ -48,8 +46,8 @@ Enjoy the game and happy guessing!
 
 ### Wireframes
 
-![Web Wireframe](assets/readme-images/webwf.png)
-![Mobile Wireframes](assets/readme-images/mobilewf.png)
+![Web Wireframe](assets/images/sketch/desktop-wireframe.JPG)
+![Mobile Wireframes](assets/images/sketch/mobile-wireframe.JPG)
 
 ### Site Structure
 
@@ -71,6 +69,8 @@ The Hex Color Guessing Game is designed to be simple and intuitive. It consists 
 
  ![Colour Palettes](assets/images/sketch/color-palletes.JPG)
 
+[Back to top](<#contents>)
+
 ## Features
 
 ### Existing Features
@@ -80,14 +80,14 @@ The Hex Color Guessing Game is designed to be simple and intuitive. It consists 
 - Provides an introduction to the game and explains the rules.
 - Features a "Start" button to begin the game.
 
-![Welcome modal](assets/readme-images/welcome-modal.png)
+![Welcome page](assets/images/sketch/home.JPG)
 
 #### Game Interface
 
 - Displays a random hex color code for the user to guess.
 - Shows options for the user to select the correct color.
 
-![Game Interface](assets/readme-images/game-interface.png)
+![Game Interface](assets/images/sketch/game.JPG)
 
 #### Difficulty buttons
 
@@ -96,27 +96,22 @@ The Hex Color Guessing Game is designed to be simple and intuitive. It consists 
 - The score panel shows the number of correct guesses.
 - The timer tracks the time taken to make guesses and changes color after set intervals to indicate elapsed time.
 
-![Score and Timer](assets/readme-images/score-timer.png)
+![easy](assets/images/sketch/easy.JPG)
+![normal](assets/images/sketch/normal.JPG)
+![hard](assets/images/sketch/hard.JPG)
 
 #### Next Button
 
 - Allows users to proceed to the next color after making a guess.
 
-![Next Button](assets/readme-images/next-button.png)
+![Next Button](assets/images/sketch/next.JPG)
 
 #### End of Game Screen
 
 - Displays the user's final score and time taken.
 - Provides buttons to restart the game or return to the main screen.
 
-![End of Game Screen](assets/readme-images/end-of-game.png)
-
-#### The Game
-
-
-#### Congratulations pop-up
-
-
+![End of Game Screen](assets/images/sketch/end-game.JPG)
 
 ### Future Features
 
@@ -133,6 +128,8 @@ The Hex Color Guessing Game is designed to be simple and intuitive. It consists 
 ## Testing
 
 For detailed information on testing the Hex Color Guessing Game, please refer to the [TESTING.md](TESTING.md) file.
+
+[Back to top](<#contents>)
 
 ## Deployment
 
@@ -203,6 +200,9 @@ __Continuous Deployment__
 - Commit and Push Changes: Whenever you make updates to your project, commit and push the changes to the same branch you have configured for GitHub Pages.
 
 - Automatic Updates: GitHub Pages will automatically rebuild and update your site with the latest changes.
+
+[Back to top](<#contents>)
+
 ## Credits
 
 ### Content
@@ -224,4 +224,4 @@ This project was inspired by the desire to create a fun and educational game for
 
 Special thanks to all the contributors and the open-source community for their valuable resources.
 
-[Back to top](#contents)
+[Back to top](<#contents>)
