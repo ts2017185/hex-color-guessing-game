@@ -24,6 +24,11 @@
     box-shadow: 0 1em 3em rgba(37, 22, 80, 0.3);
 }
 
+/* Hover styling for the 'Start' button */
+#start:hover {
+    background-color: #B8515D;
+}
+
 /* Additional margin for restart button */
 #restart {
     margin-top: 6em;
